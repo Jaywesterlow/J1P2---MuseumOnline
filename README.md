@@ -3,7 +3,7 @@
 
 Gemaakt door Jaymar Westerlow en Daan Dijkstra
 
-Waar wordt per sprint aan gewerkt
+Waar per sprint aan wordt gewerkt
 | Sprint 1        | Sprint 2        |
 | --------------- | --------------- |
 | Wireframe       | Wireframe       |
