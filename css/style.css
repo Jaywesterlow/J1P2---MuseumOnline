@@ -1,10 +1,9 @@
 body{    
-    background-image: url("../images/LAM_Exterieur.jpg");
-    background-size: cover;
+    background-image: url("../images/LAM_Exterieur_resize.jpg");
     background-color: white;
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: 1519px 753px;
+    background-size: 100%;
     margin: 0px;
 }
 
@@ -53,7 +52,7 @@ img.menuArrow{
 }
 
 
-/* --------------------END TOP BOX-------------------- */
+/* --------------------TITLE-------------------- */
 
 
 h1.title{  
@@ -154,9 +153,7 @@ p.bezoekTXT{
 
 
 div.backgroundChange{
-    display: flex;
-    align-items: stretch;
-    margin-top: 100px;
+    margin-top: 5%;
     margin-left: 29px;
     margin-right: 29px;
 }
@@ -165,16 +162,16 @@ div.backgroundChange{
 
 
 div.previousBG{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: rgba(88, 61, 15, 0.7);
 }
 
 img.previousArrow{
     transform: rotate(180deg);
-    width: 12px;
-    height: 12px;
-    margin: 8px;
+    width: 55%;
+    height: 55%;
+    margin: 9px;
 }
 
 
@@ -182,504 +179,260 @@ img.previousArrow{
 
 
 div.nextBG{
-    width: 30px;
-    height: 30px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
     background-color: rgba(88, 61, 15, 0.7);
-    margin-left: 1272px;
-    margin-bottom: 240px;
+    margin-top: -2.24%;
 }
 
 img.nextArrow{
-    width: 12px;
-    height: 12px;
-    margin: 8px;
+    width: 55%;
+    height: 55%;
+    margin: 9px;
+    
 }
 
-/* --------------------transbox2-------------------- */
+/* --------------------reviewBox-------------------- */
 
-div.transbox2 {
-    margin: 0px;
-    background-color: rgba(88, 61, 15);
-    border-bottom: 3px solid white ;
+div.reviewBox{
     width: 100%;
-    height: 340px;
+    background-color:  rgba(99, 82, 56);
+    margin-top: 13.45%;
+    padding-bottom: 1.6%;
 }
 
-h2.reviews {
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left: 15px;
-    font-family: quicksand;
+h2.reviewsHeader{
+    font-family: quicksand light;
     font-size: 45px;
-    color: rgb(255, 255, 255, 0.92);
+    color: rgb(255, 255, 255);
+    padding-left: 29px;
+    padding-top: 22px;
+    margin-bottom: 0px;
 }
 
-div.icoontje {
-    width: 30px;
-    height: 30px;
-    background-color: rgba(88, 61, 15, 0.7);
-    margin-left: 15px;
-    padding-bottom: 20px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
+/* --------------------reviewerInformation-------------------- */
+
+div.reviewContent{
+    width: 99.85%;
+    margin-top: 0.5%;
+    display: flex;}
+
+div.reviewInfo{
+    margin-left: 29px;
+    width: 40%;
 }
 
-img.icoontje{
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-p.description2{
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 65px;
-    top: 859px;
-}
-
-p.lijn-onder-tekst-enzo {
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 13px;
-    top: 871px;
-    text-decoration:underline;
-}
-
-div.icoontje2 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    padding-bottom: 20px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.icoontje2{
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-p.description3{
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 65px;
-    top: 917px;
-}
-
-p.lijn-onder-tekst-enzo2 {
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 13px;
-    top: 927px;
-    text-decoration:underline;
-}
+/* --------------------reviewer-------------------- */
 
 
-div.icoontje3 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.icoontje3{
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-p.description4{
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 65px;
-    top: 974px;
-}
-
-p.lijn-onder-tekst-enzo3 {
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 13px;
-    top: 986px;
-    text-decoration:underline;
-}
-
-div.yellowstar1 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.yellowstar1{
-    width: 27px;
-    height: 27px;
-    margin: 8px;
-    position:absolute;
-    left: 160px;
-    top: 959px;
-}
-
-div.yellowstar2 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.yellowstar2{
-    width: 27px;
-    height: 27px;
-    margin: 8px;
-    position:absolute;
-    left: 190px;
-    top: 959px;
-}
-
-div.yellowstar3 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.yellowstar3{
-    width: 27px;
-    height: 27px;
-    margin: 8px;
-    position:absolute;
-    left: 220px;
-    top: 959px;
-}
-
-div.yellowstar4 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.yellowstar4{
-    width: 27px;
-    height: 27px;
-    margin: 8px;
-    position:absolute;
-    left: 250px;
-    top: 959px;
-}
-
-div.graystar {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.graystar{
-    width: 27px;
-    height: 27px;
-    margin: 8px;
-    position:absolute;
-    left: 280px;
-    top: 959px;
-}
-
-div.portrait {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.portrait{
-    width: 200px;
-    height: 200px;
-    margin: 8px;
-    position:absolute;
-    left: 1200px;
-    top: 779px;
-}
-
-div.brownarrow1 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.brownarrow1{
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-    position:absolute;
-    left: 1415px;
-    top: 861px;
-}
-
-div.brownarrow2 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.brownarrow2{
-    transform: rotate(180deg);
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-    position:absolute;
-    left: 1150px;
-    top: 861px;
-}
-
-div.white {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.white{
-    transform: rotate(180deg);
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-    position:absolute;
-    left: 1150px;
-    top: 861px;
-}
-
-div.white2 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-}
-
-img.white2{
-    transform: rotate(180deg);
-    width: 30px;
-    height: 30px;
-    margin: 8px;
-    position:absolute;
-    left: 1415px;
-    top: 861px;
-}
-
-p.description5{
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 1150px;
-    top: 989px;
-}
-
-p.lijn-onder-tekst-enzo4 {
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 1150px;
-    top: 1055px;
-    text-decoration:underline;
-}
-
-div.transbox3 {
-    margin: 0px;
-    background-color: rgba(88, 61, 15);
-    border-bottom: 3px solid white ;
+div.visitorBox{
+    display: flex;
     width: 100%;
-    height: 140px;
+    height: 67px;
+    border-bottom: 2px solid white;
+    margin-bottom: 4%;
 }
 
-h2.social-media {
-    margin-top: 0px;
-    padding-top: 0px;
+#profile{
+    width: 60px;
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+
+#visitortxt{
+    margin: 0px;
+    padding-top: 19px;
     padding-left: 15px;
-    font-family: quicksand;
-    font-size: 45px;
-    color: rgb(255, 255, 255, 0.92);
-    text-decoration:underline;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
 }
 
-h2.meer-informatie {
-    margin-top: 0px;
-    padding-top: 0px;
+#visitor{
+    margin: 0px;
+    padding-top: 19px;
     padding-left: 15px;
-    font-family: quicksand;
-    font-size: 45px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 1050px;
-    top: 1289px;
-    text-decoration:underline;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
 }
 
-div.white4 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-    height: 30px;
-    margin: 8px;
+/* --------------------reviewDate-------------------- */
+
+
+div.dateBox{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    border-bottom: 2px solid white;
+    margin-bottom: 4%;
 }
 
-img.white4{
+#clock{
+    width: 60px;
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+
+#datetxt{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+#date{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+/* --------------------reviewScore-------------------- */
+
+
+div.ratingBox{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    border-bottom: 2px solid white;
+}
+
+#rating{
+    width: 60px;
+    height: 60px;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+#ratingtxt{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+#star1{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+#star2{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+#star3{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+#star4{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+#star5{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+
+/* --------------------REVIEWER AND WRITTEN REVIEW-------------------- */
+
+div.reviewerAndReview{
+    width: 29%;
+    margin-left: 27.5%;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+div.portraitSlider{
+    width: 100%;
+    height: 66.67%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.previousPortrait{
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    margin-left: 4%;
+    margin-top: 22%;
+    border-radius: 3px;
+
+}
+
+#previousPortrait{
+    width: 65%;
+    height: 65%;
+    margin-top: 6px;
+    margin-left: 5px;
     transform: rotate(180deg);
-    width: 50px;
-    height: 50px;
-    margin: 8px;
-    position:absolute;
-    left: 10px;
-    top: 1349px;
 }
 
-div.white5 {
-    width: 30px;
+div.portrait{
+    width: 49%;
+    height: 98%;
+    background-color: white;
+    border: 3px solid white;
+}
+
+#portrait{
+    height: 100.5%;
+    width: 100.5%;
+    margin: 0%;
+    margin-top: -0.5px;
+}
+
+div.nextPortrait{
     height: 30px;
-    margin-left: 15px;
     width: 30px;
-    height: 30px;
-    margin: 8px;
+    background-color: white;
+    margin-right: 4%;
+    margin-top: 22%;
+    border-radius: 3px;
 }
 
-img.white5{
-    transform: rotate(180deg);
-    width: 50px;
-    height: 50px;
-    margin: 8px;
-    position:absolute;
-    left: 80px;
-    top: 1349px;
+#nextPortrait{
+    width: 65%;
+    height: 65%;
+    margin-top: 6px;
+    margin-left: 5px;
 }
 
-div.white6 {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    margin: 8px;
+div.reviewtxt{
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid white;
 }
 
-img.white6{
-    transform: rotate(180deg);
-    width: 50px;
-    height: 50px;
-    margin: 8px;
-    position:absolute;
-    left: 150px;
-    top: 1349px;
-}
-
-div.instagram {
-    width: 50px;
-    height: 50px;
-    margin-left: 15px;
-    margin: 8px;
-}
-
-img.instagram{
-    width: 50px;
-    height: 50px;
-    margin: 8px;
-    position:absolute;
-    left: 10px;
-    top: 1349px;
-}
-
-div.facebook {
-    width: 50px;
-    height: 50px;
-    margin-left: 15px;
-    margin: 8px;
-}
-
-img.facebook{
-    width: 50px;
-    height: 50px;
-    margin: 8px;
-    position:absolute;
-    left: 80px;
-    top: 1349px;
-}
-
-div.linkdin {
-    width: 50px;
-    height: 50px;
-    margin-left: 15px;
-    margin: 8px;
-}
-
-img.linkdin{
-    width: 50px;
-    height: 50px;
-    margin: 8px;
-    position:absolute;
-    left: 150px;
-    top: 1349px;
-}
-
-p.description6{
-    margin-top: 0px;
+#review{
+    margin: 0px;
+    margin-top: 5.5%;
+    font-size: 16px;
     font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 1069px;
-    top: 1349px;
-}
-
-p.description7{
-    margin-top: 0px;
-    font-family: quicksand;
-    font-size: 15px;
-    color: rgb(255, 255, 255, 0.92);
-    position:absolute;
-    left: 1270px;
-    top: 1349px;
+    color: white;
+    text-align: center;
 }
