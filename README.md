@@ -1,7 +1,7 @@
 # Beroeps Opdracht:
 ### **Landing Page**
 
-Gemaakt door Jaymar Westerlow en Daan Dijkstra
+Gemaakt door Jaymar Westerlow
 
 Waar per sprint aan wordt gewerkt
 | Sprint 1        | Sprint 2        |
