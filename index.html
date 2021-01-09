@@ -7,7 +7,8 @@
 
     <!---->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <script src="javascript/slider.js"></script>
+    
 
     <title>LAM // Hét foodart museum in de wereld.</title>
 </head>
@@ -80,7 +81,13 @@
             <div class="reviewerAndReview">
                 <div class="portraitSlider">
                     <div class="previousPortrait"><img src="images/brownarrow.png"; id="previousPortrait"></div>
-                    <div class="portrait"><img src="images/portrait_resized.jpg"; id="portrait"></div>
+
+
+                    <div id="viewablePortrait">
+                        <img src="images/portrait1.jpg"; id="portrait">
+                    </div>
+                    
+                    
                     <div class="nextPortrait"><img src="images/brownarrow.png"; id="nextPortrait"></div>
                 </div>
                 <div class="reviewtxt">
@@ -89,4 +96,86 @@
             </div>
         </div>
 
+    </div>
+
+    <div class="polygonBackground">
+        <div class="popupButton" id="newsButton">
+            <p class="buttonTXT">Nieuws</p>
+        </div>
+        <div class="popupButton" id="contactButton">
+            <p class="buttonTXT">Contact</p>
+        </div>
+        <div class="popupButton" id="quizButton">
+            <p class="buttonTXT">Quiz</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mediaAndInfo">
+        <div class="socialMedia">
+            <div class="socialMediaTitle">
+                <h3 class="socialMediaTitle">Social media</h3>
+            </div>
+            <div class="mediaIcons">
+                <div class="mediaBackground"><img src="images/instagram-logo.png"; class="mediaImage"></div>
+                <div class="mediaBackground"><img src="images/facebook-logo.png";  id="facebook"></div>
+                <div class="mediaBackground"><img src="images/linkedin-logo.png"; class="mediaImage"></div>
+            </div>
+        </div>
+
+        <div class="moreInfo">
+            <div class="moreInfoTitle">
+                <h3 class="moreInfoTitle">Meer informatie</h3>
+            </div>
+            <div class="hrefTextBox">
+                <div class="linkPlaceholder">
+                    <div class="linkPlaceholder2">
+                        <p class="hrefText">
+                            Kunstenaars
+                        </p>
+                    </div>
+                    <div class="linkPlaceholder2">
+                        <p class="hrefText">
+                            Vacatures
+                        </p>
+                    </div>
+                </div>
+                <div class="linkPlaceholder">
+                    <div class="linkPlaceholder2">
+                        <p class="hrefText">
+                            Video's
+                        </p>
+                    </div>
+                    <div class="linkPlaceholder2">
+                        <p class="hrefText">
+                            Veelgestelde vragen
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="adressBox">
+            <p class="adressText">Keukenhof 14 2161 AN Lisse</p>
+        </div>
+        <div class="mailAdressBox">
+            <p class="adressText">Postbus 224, 2170 AE Sassenheim</p>
+        </div>
+        <div class="phoneAndMailBox">
+            <div class="phoneBox">
+                <div class="phoneImage">
+                    <img src="images/phone-logo_resized.png"; class="phoneImage">
+                </div>
+                <p class="numberAndEmail">0252 508 800</p>
+            </div>
+            <div class="mailBox">
+                <div class="mailImage">
+                    <img src="images/mail-logo_resized.jpg"; class="mailImage">
+                </div>
+                <p class="numberAndEmail">info@lamlisse.nl</p>
+            </div>
+        </div>
     </div>

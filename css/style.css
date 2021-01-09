@@ -1,10 +1,11 @@
 body{    
-    background-image: url("../images/LAM_Exterieur_resize.jpg");
+    background-image: url("../images/LAM-Outside.jpg");
     background-color: white;
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100%;
     margin: 0px;
+    /* font-size: 110%; */
 }
 
 
@@ -63,6 +64,7 @@ h1.title{
     margin-left: 25px;
     margin-bottom: 0px;
     color: rgb(255, 255, 255, 0.92);
+    text-shadow: 0 0 5px black;
 }
 
 
@@ -148,6 +150,11 @@ p.bezoekTXT{
     color: rgb(255, 255, 255);
 }
 
+p.bezoekTXT:hover{
+    color: black;
+}
+
+
 
 /* --------------------BACKGROUND CHANGE-------------------- */
 
@@ -156,6 +163,8 @@ div.backgroundChange{
     margin-top: 5%;
     margin-left: 29px;
     margin-right: 29px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* --------------------LEFT ARROW-------------------- */
@@ -174,17 +183,15 @@ img.previousArrow{
     margin: 9px;
 }
 
-
 /* --------------------RIGHT ARROW-------------------- */
 
 
 div.nextBG{
-    float: right;
     width: 40px;
     height: 40px;
     margin-right: 18px;
     background-color: rgba(88, 61, 15, 0.7);
-    margin-top: -2.24%;
+    
 }
 
 img.nextArrow{
@@ -199,8 +206,8 @@ img.nextArrow{
 div.reviewBox{
     width: 100%;
     background-color:  rgba(99, 82, 56);
-    margin-top: 13.45%;
-    padding-bottom: 1.6%;
+    margin-top: 17%;
+    padding-bottom: 40px;
 }
 
 h2.reviewsHeader{
@@ -210,6 +217,7 @@ h2.reviewsHeader{
     padding-left: 29px;
     padding-top: 22px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 /* --------------------reviewerInformation-------------------- */
@@ -217,11 +225,16 @@ h2.reviewsHeader{
 div.reviewContent{
     width: 99.85%;
     margin-top: 0.5%;
-    display: flex;}
+    display: flex;
+    justify-content: space-between;
+}
 
 div.reviewInfo{
     margin-left: 29px;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* --------------------reviewer-------------------- */
@@ -232,7 +245,7 @@ div.visitorBox{
     width: 100%;
     height: 67px;
     border-bottom: 2px solid white;
-    margin-bottom: 4%;
+    margin-top: 30px;
 }
 
 #profile{
@@ -268,7 +281,6 @@ div.dateBox{
     width: 100%;
     height: 67px;
     border-bottom: 2px solid white;
-    margin-bottom: 4%;
 }
 
 #clock{
@@ -361,78 +373,325 @@ div.ratingBox{
 /* --------------------REVIEWER AND WRITTEN REVIEW-------------------- */
 
 div.reviewerAndReview{
-    width: 29%;
-    margin-left: 27.5%;
-    margin-top: -50px;
-    overflow: hidden;
+    width: 38%;
 }
 
+/* --------------------Portrait Slider-------------------- */
+
+
 div.portraitSlider{
-    width: 100%;
-    height: 66.67%;
     display: flex;
     justify-content: space-between;
 }
 
 div.previousPortrait{
-    height: 30px;
-    width: 30px;
-    background-color:white;
-    margin-left: 4%;
-    margin-top: 22%;
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 18%;
+    margin-left: 10%;
     border-radius: 3px;
-
 }
 
 #previousPortrait{
-    width: 65%;
-    height: 65%;
-    margin-top: 6px;
-    margin-left: 5px;
+    margin-top: 9px;
+    margin-left: 7px;
+    height: 60%;
+    width: 60%;
     transform: rotate(180deg);
 }
 
-div.portrait{
-    width: 49%;
-    height: 98%;
-    background-color: white;
-    border: 3px solid white;
+#viewablePortrait{
+    margin-top: -40px;
+    height: 240px;
 }
 
 #portrait{
-    height: 100.5%;
-    width: 100.5%;
-    margin: 0%;
-    margin-top: -0.5px;
+    height: 240px;
+    border: 2px solid white;
+    margin-bottom: 20px;
 }
 
 div.nextPortrait{
-    height: 30px;
-    width: 30px;
     background-color: white;
-    margin-right: 4%;
-    margin-top: 22%;
+    height: 45px;
+    width: 45px;
+    margin-top: 18%;
+    margin-right: 10%;
     border-radius: 3px;
 }
 
 #nextPortrait{
-    width: 65%;
-    height: 65%;
-    margin-top: 6px;
-    margin-left: 5px;
+    margin-top: 9px;
+    margin-left: 10px;
+    height: 60%;
+    width: 60%;
 }
+
+/* --------------------Portrait Slider End-------------------- */
 
 div.reviewtxt{
-    width: 80%;
+    width: 50%;
+    text-align: center;
     margin: auto;
+    color: white;
     border-bottom: 2px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-family: quicksand light;
 }
 
-#review{
-    margin: 0px;
-    margin-top: 5.5%;
-    font-size: 16px;
+/* --------------------Contact, News And Quiz buttons-------------------- */
+
+div.polygonBackground{
+    width: 100%;
+    height: 710px;
+    background-image: url("../images/polygonBackground.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}   
+
+div.popupButton{
+    border: 3px solid rgba(99, 82, 56);
+    width: 20%;
+    height: 30%;
+    margin-top: 220px;
+}
+
+#newsButton{
+    margin-left: 10%;
+    background-image: url("../images/nieuws.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+#contactButton{
+    background-image: url("../images/contact_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+#quizButton{
+    margin-right: 8.5%;
+    background-image: url("../images/quiz_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+p.buttonTXT{
     font-family: quicksand;
-    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    color:  rgba(88, 61, 15);
     text-align: center;
+    margin-top: 22%;
+    text-shadow: 0 0 5px white;
+}
+
+/* --------------------Social media & More Info-------------------- */
+
+div.mediaAndInfo{
+    background-color:  rgba(99, 82, 56);
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+
+/* --------------------Social media (LEFT SIDE)-------------------- */
+
+div.socialMedia{
+    height: 97.78%;
+    width: 50%;
+}
+
+div.socialMediaTitle{
+    border-bottom: 2.7px solid white;
+    width: 46%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+h3.socialMediaTitle{
+    font-family: quicksand light;
+    font-size: 47px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.mediaIcons{
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediaBackground{
+    background-color: white;
+    width: 68px;
+    height: 68px;
+    border-radius: 10px;
+}
+
+.mediaImage{
+    width: 85%;
+    height: 85%;
+    margin-top: 7.5%;
+    margin-left: 7.5%;
+}
+
+#facebook{
+    width: 100%;
+    height: 100%;
+}
+
+/* --------------------More Info (RIGHT SIDE)-------------------- */
+
+
+div.moreInfo{
+    height: 97.78%;
+    width: 50%;
+}
+
+div.moreInfoTitle{
+    border-bottom: 2.7px solid white;
+    width: 56%;
+    margin: auto;
+    margin-top: 2.9%;
+    text-align: center;
+}
+
+h3.moreInfoTitle{
+    font-family: quicksand light;
+    font-size: 47px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.hrefTextBox{
+    width: 55%;
+    height: 80px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+div.linkPlaceholder{
+    width: 100%;
+    height: 48%;
+    display: flex;
+}
+
+div.linkPlaceholder2{
+    width: 50%;
+    height: 99%;
+}
+
+p.hrefText{
+    margin: 0;
+    font-family: quicksand regular;
+    color: white;
+    font-size: 17px;
+}
+
+/* -------------------- Footer -------------------- */
+
+
+div.footer{
+    background-color: rgb(41, 28, 3);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.adressBox{
+    margin-left: 2.5%;
+    width: 30%;
+    height: 97%;
+}
+
+div.mailAdressBox{
+    width: 30%;
+    height: 97%;
+}
+
+div.phoneAndMailBox{
+    margin-right: 2.5%;
+    width: 30%;
+    height: 97%;
+}
+
+div.phoneBox{
+    width: 100%;
+    height: 48%;
+    display: flex;
+}
+
+div.phoneImage{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 1.6%;
+}
+
+img.phoneImage{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+div.mailBox{
+    width: 100%;
+    height: 48%;
+    display: flex;
+}
+
+div.mailImage{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 1.6%;
+}
+
+img.mailImage{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+p.adressText{
+    margin: 0;
+    font-family: quicksand regular;
+    font-size: 22px;
+    color: white;
+    margin-top: 8.5%;
+    text-align: center;
+}
+
+p.numberAndEmail{
+    margin: 0;
+    font-family: quicksand regular;
+    font-size: 20px;
+    color: white;
+    margin-top: 3.4%;
+    margin-left: 1%;
+}
+
+div{
+    border: 1px solid red;
 }
