@@ -37,3 +37,7 @@ let fotonummer, fotobreedte, aantalfotos, fotoslider;
       }
 
       document.addEventListener("DOMContentLoaded", setupFotoslider);
+
+      //-------------------------------------------------------------
+
+      

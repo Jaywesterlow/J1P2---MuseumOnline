@@ -131,6 +131,10 @@ p.ticketsTXT{
     color: rgb(255, 255, 255);
 }
 
+p.ticketsTXT:hover{
+    color: black;
+}
+
 div.bezoekButton{
     background-color: rgba(88, 61, 15, 0.7);
     height: 63px;
@@ -543,11 +547,16 @@ div.linkPlaceholder2{
     height: 99%;
 }
 
-p.hrefText{
+.hrefText{
     margin: 0;
     font-family: quicksand regular;
+    text-decoration: none;
     color: white;
     font-size: 17px;
+}
+
+.hrefText:hover{
+    color: black;
 }
 
 /* -------------------- Footer -------------------- */
