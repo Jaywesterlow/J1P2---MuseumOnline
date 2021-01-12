@@ -8,6 +8,9 @@ body{
     /* font-size: 110%; */
 }
 
+a {
+    text-decoration: none;
+}
 
 /* --------------------TOP BOX-------------------- */
 
@@ -122,10 +125,15 @@ div.ticketsButton{
     clip-path: polygon(24% 0, 100% 0%, 76% 100%, 0% 100%);
 }
 
+.ticketsButton:hover{
+    background: rgb(255, 255, 255, 0.7);
+    transition: all 0.3s;
+}
+
 p.ticketsTXT{
     text-align: center;
     margin: 0px;
-    padding-top: 20px;
+    padding: 20px;
     font-size: 21px;
     font-family: Blogger sans;
     color: rgb(255, 255, 255);
@@ -145,10 +153,15 @@ div.bezoekButton{
     clip-path: polygon(24% 0, 100% 0%, 76% 100%, 0% 100%);
 }
 
+.bezoekButton:hover{
+    background: rgb(255, 255, 255, 0.7);
+    transition: all 0.3s;
+}
+
 p.bezoekTXT{
     text-align: center;
     margin: 0px;
-    padding-top: 20px;
+    padding: 20px;
     font-size: 21px;
     font-family: Blogger sans;
     color: rgb(255, 255, 255);
@@ -412,6 +425,7 @@ div.popupButton{
     margin-top: 220px;
 }
 
+
 #newsButton{
     margin-left: 10%;
     background-image: url("../images/nieuws.jpg");
@@ -439,7 +453,7 @@ p.buttonTXT{
     font-family: quicksand;
     font-weight: 500;
     font-size: 50px;
-    color:  rgba(88, 61, 15);
+    color:  black;
     text-align: center;
     margin-top: 22%;
     text-shadow: 0 0 5px white;
