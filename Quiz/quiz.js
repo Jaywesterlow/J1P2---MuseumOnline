@@ -25,7 +25,7 @@
         chooseOption();
         if (isNaN(selectOptions[quesCounter])) 
         {
-            alert('Please select an option !');
+            alert('kies een antwoord!');
         } 
         else 
         {
@@ -44,7 +44,7 @@
   function createElement(index) 
     {
         var element = $('<div>',{id: 'question'});
-        var header = $('<h2>Question No. ' + (index + 1) + ' :</h2>');
+        var header = $('<h2>Vraag nummer ' + (index + 1) + ':</h2>');
         element.append(header);
 
         var question = $('<p>').append(allQuestions[index].question);
@@ -120,13 +120,13 @@
         }
         score.append('Gebaseerd op jouw antwoorden denken wij dat dit kunstwerk het best bij jou past!');
         if (correct > 0 && correct < 70) {
-          score.append('<img src="woodenShrek.jpg">');
+          score.append('<img src="woodenShrek.jpg" class="abc">');
         }
         if (correct > 70 && correct < 100) {
-          score.append('<img src="foodPainting.jpg">');
+          score.append('<img src="foodPainting.jpg" class="abc">');
         }
         if (correct > 100 && correct < 121) {
-          score.append('<img src="platinumCart.jpg">');
+          score.append('<img src="platinumCart.jpg" class="abc">');
         }
         return score;
     }
