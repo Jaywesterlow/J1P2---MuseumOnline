@@ -127,7 +127,7 @@ div.ticketsButton{
 
 .ticketsButton:hover{
     background: rgb(255, 255, 255, 0.7);
-    transition: all 0.3s;
+    transition: all 0.4s ease 0s;
 }
 
 p.ticketsTXT{
@@ -155,7 +155,7 @@ div.bezoekButton{
 
 .bezoekButton:hover{
     background: rgb(255, 255, 255, 0.7);
-    transition: all 0.3s;
+    transition: all 0.4s ease 0s;
 }
 
 p.bezoekTXT{
@@ -208,7 +208,6 @@ div.nextBG{
     height: 40px;
     margin-right: 18px;
     background-color: rgba(88, 61, 15, 0.7);
-    
 }
 
 img.nextArrow{
@@ -413,51 +412,78 @@ div.polygonBackground{
     background-image: url("../images/polygonBackground.png");
     background-color: white;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;    
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }   
 
-div.popupButton{
-    border: 3px solid rgba(99, 82, 56);
-    width: 20%;
-    height: 30%;
-    margin-top: 220px;
+#buttonSpace{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 220px;
 }
 
-
-#newsButton{
-    margin-left: 10%;
+#nieuwsDiv{
+    height: 220px;
+    width: 300px;
+    border: 3px solid rgba(99, 82, 56);
     background-image: url("../images/nieuws.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
+    transition: all 0.4s ease 0s;
 }
 
-#contactButton{
+#nieuwsDiv:hover {
+    border: solid 3px rgb(60, 60, 60);
+    box-shadow: 3px 5px 10px rgb(135, 135, 135);
+}
+
+#contactDiv{
+    height: 220px;
+    width: 300px;
+    border: 3px solid rgba(99, 82, 56);
     background-image: url("../images/contact_resized.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
+    transition: all 0.4s ease 0s;
 }
 
-#quizButton{
-    margin-right: 8.5%;
+#contactDiv:hover {
+    border: solid 3px rgb(60, 60, 60);
+    box-shadow: 3px 5px 10px rgb(135, 135, 135);
+}
+
+#quizDiv{
+    height: 220px;
+    width: 300px;
+    border: 3px solid rgba(99, 82, 56);
     background-image: url("../images/quiz_resized.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
+    transition: all 0.4s ease 0s;
 }
 
-p.buttonTXT{
+#quizDiv:hover {
+    border: solid 3px rgb(60, 60, 60);
+    box-shadow: 3px 5px 10px rgb(135, 135, 135);
+}
+
+.txtStyling{
     font-family: quicksand;
     font-weight: 500;
     font-size: 50px;
     color:  black;
     text-align: center;
-    margin-top: 22%;
     text-shadow: 0 0 5px white;
+    margin: 0px;
+    margin-top: 25%;
 }
+
+
 
 /* --------------------Social media & More Info-------------------- */
 
@@ -505,6 +531,12 @@ div.mediaIcons{
     width: 68px;
     height: 68px;
     border-radius: 10px;
+    transition: all 0.4s ease 0s;
+
+}
+
+.mediaBackground:hover {
+    box-shadow: 3px 5px 10px rgb(44, 44, 44);
 }
 
 .mediaImage{
@@ -567,6 +599,7 @@ div.linkPlaceholder2{
     text-decoration: none;
     color: white;
     font-size: 17px;
+    transition: all 0.4s ease 0s;
 }
 
 .hrefText:hover{
